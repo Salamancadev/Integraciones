@@ -1,0 +1,56 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de la base de datos (sqlite)
+*.sqlite3
+
+# Archivos de migraciones compilados
+**/__pycache__/
+**/*.py[cod]
+*.pyc
+*.pyo
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.bak
+*.swp
+*.tmp
+
+# Archivos de media o estáticos generados (si los tienes localmente)
+media/
+staticfiles/
+
+# Archivos de Django
+*.pot
+*.mo
+
+# Archivos de prueba de cobertura
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Archivos de pruebas
+.tox/
+.pytest_cache/
+
+# Archivos de configuración personal
+*.env
+.env.*
+
+# Archivos creados por el compilador de C (si usas extensiones en C)
+*.so
